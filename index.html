@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucky Kumar | Futuristic Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://img.icons8.com/nolan/64/source-code.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="hero">
+    <nav>
+      <div class="logo">Lucky<span>Kumar</span></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="toggle-btn" onclick="toggleTheme()">🌓 Theme</button>
+    </nav>
+
+    <!-- HERO CONTENT -->
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Lucky Kumar</span></h1>
+      <p class="typing">Futuristic Web Developer | AI Enthusiast | Tech Dreamer | Full Stack Innovator | Cloud Architect</p>
+      <button onclick="scrollToSection('contact')">Hire Me 🚀</button>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a passionate and creative full-stack developer with a knack for designing immersive, intelligent, and performance-driven web experiences. I specialize in futuristic UI/UX, real-time applications, and AI-integrated platforms. I'm also deeply involved in open-source projects, cloud architecture, and developer advocacy. Welcome to my digital universe.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Neon AI Assistant</h3>
+        <p>Voice-activated assistant built using GPT, TensorFlow, and WebSpeech API for a Jarvis-like experience.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio 3.0</h3>
+        <p>Immersive 3D personal website with GSAP animations, glassmorphism, and theme toggling.</p>
+      </div>
+      <div class="project-card">
+        <h3>Code In Air LMS</h3>
+        <p>A futuristic EdTech platform to learn code, crack interviews, and join developer communities.</p>
+      </div>
+      <div class="project-card">
+        <h3>CryptoVision Dashboard</h3>
+        <p>Live crypto analytics dashboard with Binance API, WebSockets, and blockchain wallet viewer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML5, CSS3, JavaScript, TypeScript</li>
+      <li>React, Next.js, Tailwind, GSAP</li>
+      <li>Node.js, Express, MongoDB, Firebase</li>
+      <li>Python, Flask, FastAPI, AI/ML</li>
+      <li>Flutter, Dart, React Native</li>
+      <li>GCP, AWS, Docker, CI/CD, GitHub Actions</li>
+    </ul>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="section">
+    <h2>Certificates</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>AWS Summit 2025</h3>
+        <p>Attended AWS Cloud Summit India 2025.</p>
+        <a href="certificates/aws-certificate.pdf" download class="toggle-btn">Download</a>
+      </div>
+      <div class="project-card">
+        <h3>GCP Arcade</h3>
+        <p>Completed advanced quests and Kubernetes tracks.</p>
+        <a href="certificates/gcp-arcade.pdf" download class="toggle-btn">Download</a>
+      </div>
+      <div class="project-card">
+        <h3>ScriptedByHer Winner</h3>
+        <p>Top winner in Meesho Hackathon 2025.</p>
+        <a href="certificates/hackathon-win.pdf" download class="toggle-btn">Download</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>Here is my latest resume in PDF format. Click below to download.</p>
+    <a href="resume/Lucky-Kumar-Resume.pdf" download class="toggle-btn">📄 Download Resume</a>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <p>"Lucky is a visionary developer who brings futuristic ideas to life with ease. A truly talented creator!" – <strong>Tech Mentor</strong></p>
+      </div>
+      <div class="project-card">
+        <p>"Working with Lucky was like collaborating with Iron Man – full of tech magic and efficiency." – <strong>Startup Founder</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Lucky Kumar. All Rights Reserved. Made with 💙 futuristic vision and 💻 technology.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
